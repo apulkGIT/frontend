@@ -1,0 +1,108 @@
+
+	.container {
+		display: grid;
+		grid-gap: 10px;
+  		grid-template-columns: 100px 100px 100px;
+		grid-template-rows: 100px 100px 100px;
+		margin:0 auto 10px;
+    		border:1px #aaa solid;
+    		padding: 10px; 
+    		width: 320px;
+ 	   	height: 100px;
+	}
+	.container:hover .box {
+    		margin-left: 255px;
+	}
+	.fcontainer {
+		display: grid;
+		grid-gap: 10px;
+  		grid-template-columns: 1000px;
+		grid-template-rows: 50px;
+	}
+	.box {
+	    border-style: solid;
+    	    border-width: 1px;
+    	    display: block;
+            font-size: 150%;
+            font-weight: bold;
+            text-align: center;
+            width: 45px;
+            height: 45px;
+            background-color: #888;
+	    color: #fff;
+            -webkit-transition: margin-left 4s ease;
+            transition: margin-left 4s ease;
+	    border-radius: 5px;
+	    padding: 20px;
+        }
+	.box2 {
+		background-color: #000;
+		color: #fff;
+		border-radius: 5px;
+		padding: 100px;
+		font-size: 150%;
+	}
+	.a {
+		background-image : url("test.jpg");
+		grid-column: 1 / 2;
+		grid-row: 1 / 1;
+	}
+	.b {
+		background-image : url("test.jpg");
+		grid-column: 3 / 2;	
+		grid-row : 1 / 1;
+	}
+	.c {
+		background-image : url("test.jpg");
+		grid-column: 0 / 2;
+		grid-row : 1 / 1;
+	}
+	.nav-item {
+		padding: 0.5rem;
+	}
+	.nav-link {
+		padding: 10px;
+		font-size: 150%;
+		background-color: #000;
+		color: #fff;
+		border-radius: 5px;	
+	}
+img {
+	border-style: solid;
+    	border-width: 1px;
+    	display: block;
+        font-size: 150%;
+        font-weight: bold;
+        text-align: center;
+        width: 145px;
+        height: 145px;
+        background-color: #888;
+	color: #fff;
+        -webkit-transition: margin-left 4s ease;
+        transition: margin-left 4s ease;
+	border-radius: 5px;
+	margin: auto;
+}
+main {
+  display: block;
+  background-color: #222222;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+header {
+  background-color: #f1f1f1;
+  padding: 4rem;
+  height: 100%;
+}
+header a {
+  padding: 0.4rem;
+  background-color: red;
+}
+header a:hover {
+  color: rgba(255, 136, 255, 0.5333333333);
+}
+h1 {
+  font-size: 200%;
+  font-family: "Times New Roman", Times, serif;
+}

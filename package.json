@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "name": "frontend_kurssi",
+  "version": "1.0.0",
+  "description": "Front-end course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

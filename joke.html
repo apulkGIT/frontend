@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<HEAD>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke page</title>
+</HEAD>
+<BODY>
+	<style>
+		.nav-link {
+			padding: 10px;
+			font-size: 150%;
+			background-color: #000;
+			color: #fff;
+			border-radius: 5px;	
+		}
+		.container {
+			display: grid;
+			grid-gap: 10px;
+  			grid-template-columns: 300px;
+			grid-template-rows: 80px;
+		}
+		.fcontainer {
+			background-color: #888;
+			color: #fff;
+			border-radius: 5px;
+			padding: 20px;
+			font-size: 150%;
+		}
+		.containertmp {
+			display: grid;
+			grid-gap: 10px;
+  			grid-template-columns: 100px 100px 100px;
+			grid-template-rows: 100px 100px 100px;
+			margin:0 auto 10px;
+    			border:1px #aaa solid;
+    			padding: 10px; 
+    			width: 320px;
+ 	   		height: 100px;
+		}
+		.container2 {
+			display: flex;
+			flex-wrap: wrap;	
+		    	justify-content: space-evenly;
+		    	align-items: center;
+			margin-top: 1rem;
+			border: 1px solid yellow;
+			box-sizing: border-box;
+			color: #fff;
+			div {
+				font-size: 2rem;
+				border: 3px #fff solid;
+				padding: 1.5rem 2.5rem;
+				margin-bottom: 3rem;
+				@include easeOut;
+		    	}
+        	}
+		main {
+			background-color: gray;
+		}
+	}
+	</style>
+	<header>
+		<nav class="menu">
+			<div class="menu-branding">
+				<div class="portrait"></div>
+			</div>
+			<ul class="menu-nav">
+					<p>
+					<a href="project.html" class="nav-link">
+						Home
+					</a>
+					</p>
+					<p>
+					<a href="joke.html" class="nav-link">
+						Jokes
+					</a>
+					</p>
+					<p>
+					<a href="about.html" class="nav-link">
+						About
+					</a>
+					</p>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Jokes:</h1>
+		<p>Majedar Jokes - Bank jokes are a type of humor that often play on the stereotypes and perceptions surrounding banks and banking institutions. These jokes may poke fun at bankers and their perceived greed, or at the complexities of financial transactions and paperwork. Some bank jokes may also satirize the customer experience, including long lines, high fees, and frustrating policies. While some bank jokes can be critical or negative, others are more lighthearted and meant to be taken in good humor. Bank jokes are a common form of comedy and can be found in stand-up routines, cartoons, and online memes.</p>
+		<p>Funny jokes are an essential part of our lives. They serve as an important tool to make our day more enjoyable. Sometimes, a little laughter can make a big difference in our day.</p>		
+		<div class="container2">
+			<div>Eat</div>
+		</div>
+		<div class="container2">
+			<div>Pray</div>
+		</div>
+		<div class="container2">
+			<div>Love</div>
+		</div>
+	</main>
+	<footer>
+		<div>Creator of this web page is Antti Pulkkinen</div>
+	</footer>
+</BODY>
