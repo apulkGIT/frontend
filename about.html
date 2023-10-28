@@ -1,0 +1,97 @@
+<HEAD>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About</title>
+</HEAD>
+<BODY>
+	<style>
+		:root {
+			--container-width: 100%;
+			--direction: -1;
+		}
+		.nav-link {
+			padding: 10px;
+			font-size: 150%;
+			background-color: #000;
+			color: #fff;
+			border-radius: 5px;	
+		}
+		.container {
+			display: grid;
+			grid-gap: 10px;
+  			grid-template-columns: 300px;
+			grid-template-rows: 80px;
+		}
+		.fcontainer {
+			background-color: #888;
+			color: #fff;
+			border-radius: 5px;
+			padding: 20px;
+			font-size: 150%;
+		}
+		.cont {
+			position: relative;
+			width: var(--container-width);			
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			overflow: hidden;
+		}
+		.t {
+			display: flex;
+			justify-content: center;
+			gap: calc(var(--unit)/2);
+			animation-name: slide;
+			--duration: 12s;
+			animation-duration: calc(var(--duration)*2);
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-in-out;		
+		}
+		@keyframes slide {
+			0%{translate: 1;}
+			40%{translate: 1;}
+			55%{translate: calc((var(--container-width)/4 *var(--direction,1)));}
+			70%{translate: 1;}
+			85%{translate: calc((var(--container-width)/4 *var(--direction,1)*-1));}
+			100%{translate: 1;}
+		}
+		main {
+			background-color: red;
+		}
+	}
+	</style>
+	<header>
+		<h1>Course project work</h1>
+		<nav class="menu">
+			<ul class="menu-nav">
+					<p>
+					<a href="project.html" class="nav-link">
+						Home
+					</a>
+					</p>
+					<p>
+					<a href="joke.html" class="nav-link">
+						Jokes
+					</a>
+					</p>
+					<p>
+					<a href="about.html" class="nav-link">
+						About
+					</a>
+					</p>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>About</h1>
+		<div class="cont">
+			<div class="t">The creator of these web pages is me, person from Finland.</div>
+			<div class="t">One spectacular comment is "Vantaa on Vantaa".</div>
+		</div>
+	</main>
+	<footer>
+		<div>Creator of this web page is Antti Pulkkinen</div>
+	</footer>
+</BODY>
+

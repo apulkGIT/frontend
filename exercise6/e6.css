@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background: #144;
+  color: #4ff;
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.fa {
+  background: #223344;
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  &:hover {
+    background: #333;
+  }
+}
+
+main {
+  padding: 5rem;
+  background: #222;
+  &#m {
+    background: url("pic.jpg");
+    .overlay {
+      background: rgba(#222,0.7);
+    }
+  }
+  .icons {
+    width: 5%;
+    margin-top: 1rem;
+    .fa:hover {
+        color: #222;
+	      transition: all 0.5s ease-out;
+      }
+  }
+}
+
+.classb {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.box {
+	background-color: #444;
+	color: #fff;
+ 	border-radius: 5px;
+	padding: 20px;
+	font-size: 150%;
+  &:hover {
+    background: #222;
+  }
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2 1 30em;
+  gap: 25px;
+  justify-content: space-evenly;
+  align-item: center;
+  flex-direction: row;
+}
+
+.b {
+    border: 2px solid black;
+}
+
+/*# sourceMappingURL=e1.css.map */
